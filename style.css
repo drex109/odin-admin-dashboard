@@ -145,7 +145,7 @@ button{
     display: grid;
     grid-template-rows: 1fr auto;
     padding: 1rem;
-    border-left: 5px solid yellow;
+    border-left: 10px solid rgb(255, 197, 6);
 }
 .card-icons{
     text-align: end;
