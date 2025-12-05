@@ -118,7 +118,7 @@ button{
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 4fr 1fr;
     background-color: rgb(235, 235, 235);
     padding: 2rem 1rem;
 }
@@ -130,7 +130,8 @@ button{
 }
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
     /* align-items: center;
     justify-items: center; */
@@ -152,4 +153,23 @@ button{
 }
 .card-icons svg:not(:last-child){
     margin-right: 2rem;
+}
+
+.announcements{
+    display: grid;
+    padding: 1rem;
+    grid-template-rows: auto 1fr;
+}
+.announce-card{
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(161, 161, 161, 0.5);
+}
+
+p{
+    color: darkslategray;
+}
+hr{
+    margin: 1rem 0rem;
 }
