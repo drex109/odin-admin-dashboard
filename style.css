@@ -173,3 +173,15 @@ p{
 hr{
     margin: 1rem 0rem;
 }
+
+.trending{
+    display: grid;
+    padding: 1rem;
+    grid-template-rows: auto 1fr;
+}
+.trend-card{
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(161, 161, 161, 0.5);
+}
